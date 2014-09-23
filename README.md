@@ -23,8 +23,10 @@ cf push
 =================================
 Checking api end points with curl
 =================================
-
 $ curl -i "https://pws-cities.cfapps.io/cities"
+
 $ curl -i "https://pws-cities.cfapps.io/cities?size=5"
+
 $ curl -i "https://pws-cities.cfapps.io/cities?size=5&page=3"
+
 $ curl -i "https://pws-cities.cfapps.io/cities?sort=postalCode,desc"
