@@ -1,0 +1,13 @@
+---
+applications:
+- name: cities
+  memory: 512M
+  instances: 1
+  host: pws-cities
+  buildpack: https://github.com/cloudfoundry/java-buildpack
+  path: target/cities-1.0.0-SNAPSHOT.jar
+  timeout: 180 # to give time for the data to import
+  services:
+  - cities-db
+  #env:
+    #SPRING_PROFILES_ACTIVE: cloud 	
