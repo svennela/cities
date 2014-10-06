@@ -1,7 +1,6 @@
 Micro Services on cities
 =======================
-Copy of below repository
-https://github.com/mstine/citytest
+Copied from https://github.com/mstine/citytest
 
 Upgraded to Spring Boot 1.1.6.RELEASE
 Used Mysql as cloud and local datastore
